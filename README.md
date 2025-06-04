@@ -5,8 +5,11 @@
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# fundamentals
-brew install beekeeper-studio ghostty github lm-studio podman-desktop
+# dev
+brew install 5ire beekeeper-studio ghostty github grandperspective lm-studio podman-desktop
+
+# personal
+brew install obs tailscale
 
 # browser
 brew install google-chrome # arc zen-browser
