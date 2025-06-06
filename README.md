@@ -18,7 +18,7 @@ brew install google-chrome # arc zen-browser
 brew install visual-studio-code # cursor zed
 
 # google dev
-brew install flutter google-cloud-sdk
+brew install flutter google-cloud-sdk google-drive
 
 # python
 brew install uv
