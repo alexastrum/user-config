@@ -7,6 +7,7 @@
 cd ~
 mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip-components 1 -C homebrew
 eval "$(homebrew/bin/brew shellenv)"
+brew analytics off
 brew update --force --quiet
 chmod -R go-w "$(brew --prefix)/share/zsh"
 
@@ -37,6 +38,7 @@ brew install cursor visual-studio-code # zed
 
 # google dev
 brew install flutter google-cloud-sdk google-drive
+flutter --disable-analytics
 
 # python
 brew install uv
@@ -52,6 +54,7 @@ echo 'NVM_DIR="$(brew --prefix nvm)"' >> ~/.zshrc
 echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm' >> ~/.zshrc
 echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion' >> ~/.zshrc
 echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
+echo 'export NODE_OPTIONS="--disable-telemetry"' >> ~/.zshrc
 
 omz reload
 nvm i node
