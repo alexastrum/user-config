@@ -25,7 +25,10 @@ echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 #brew install fish # for minimal setups
 
 # dev
-brew install 5ire beekeeper-studio ffmpeg ghostty github grandperspective lm-studio podman-desktop
+brew install 5ire beekeeper-studio ffmpeg ghostty github grandperspective lm-studio
+
+# container
+brew install cubectl docker-compose kubernetes-cli podman podman-desktop
 
 # personal
 brew install obs tailscale vlc
