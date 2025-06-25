@@ -28,7 +28,7 @@ echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 brew install 5ire beekeeper-studio ffmpeg ghostty github grandperspective lm-studio podman-desktop
 
 # personal
-brew install obs tailscale
+brew install obs tailscale vlc
 
 # browser
 brew install google-chrome # arc zen-browser
