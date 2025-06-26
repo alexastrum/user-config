@@ -33,6 +33,9 @@ brew install cubectl docker-compose kubernetes-cli podman podman-desktop
 # personal
 brew install obs tailscale vlc
 
+# hardware
+brew install linearmouse
+
 # browser
 brew install google-chrome # arc zen-browser
 
