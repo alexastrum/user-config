@@ -31,7 +31,7 @@ brew install beekeeper-studio ffmpeg ghostty github grandperspective
 brew install 5ire lm-studio ollama-app
 
 # docker
-brew install kubernetes-cli docker-compose kubernetes-cli podman podman-desktop
+brew install docker-compose helm kubernetes-cli kubernetes-cli podman podman-desktop
 
 # media
 brew install obs tailscale vlc
