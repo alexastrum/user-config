@@ -67,6 +67,7 @@ echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.zshrc
 omz reload
 nvm i node
 corepack enable
+echo 'nvm use 24' >> ~/.zshrc
 
 # google
 npm install -g firebase-cli genkit-cli @google/gemini-cli
