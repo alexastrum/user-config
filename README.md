@@ -70,6 +70,6 @@ corepack enable
 echo 'nvm use 24' >> ~/.zshrc
 
 # google
-npm install -g firebase-cli genkit-cli @google/gemini-cli
+npm install -g firebase-cli genkit-cli @google/gemini-cli # npm
 
 ```
