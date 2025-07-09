@@ -48,6 +48,9 @@ brew install google-chrome thebrowsercompany-dia # zen-browser
 # ide
 brew install cursor visual-studio-code # zed
 
+echo 'export EDITOR="code --wait"' >> ~/.zshrc
+echo 'export VISUAL="code --wait"' >> ~/.zshrc
+
 # google
 brew install flutter google-cloud-sdk google-drive
 flutter --disable-analytics
