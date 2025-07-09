@@ -34,7 +34,10 @@ brew install 5ire lm-studio ollama-app
 brew install docker-compose helm kubernetes-cli kubernetes-cli podman podman-desktop
 
 # media
-brew install obs tailscale vlc
+brew install obs vlc
+
+# vpn
+brew install surfshark tailscale-app
 
 # hardware
 brew install linearmouse
