@@ -25,7 +25,8 @@ echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 #brew install fish # for minimal setups
 
 # dev
-brew install beekeeper-studio ffmpeg ghostty github grandperspective
+brew install ffmpeg fzf rga pandoc poppler
+brew install beekeeper-studio ghostty github grandperspective
 
 # llms
 brew install 5ire lm-studio ollama-app
