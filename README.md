@@ -60,7 +60,7 @@ brew install flutter google-cloud-sdk google-drive
 flutter --disable-analytics
 
 # python
-brew install uv
+brew install miniconda uv
 
 # nodejs
 brew install nvm # asdf fnm volta
