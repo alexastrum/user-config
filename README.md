@@ -3,6 +3,9 @@
 ## install software with brew
 
 ```sh
+# ensure default identity
+ssh-keygen
+
 # homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 #cd ~
@@ -81,3 +84,4 @@ npm i -g opencode-ai # npm
 # google
 npm i -g firebase-cli genkit-cli @google/gemini-cli
 ```
+
