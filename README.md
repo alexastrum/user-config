@@ -28,7 +28,7 @@ echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 #brew install fish # for minimal setups
 
 # dev
-brew install ffmpeg fzf rga pandoc poppler
+brew install cmake ffmpeg fzf rga pandoc poppler
 brew install beekeeper-studio ghostty github grandperspective
 
 # llms
