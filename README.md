@@ -69,6 +69,9 @@ brew install nvm # asdf fnm volta
 
 #echo 'eval "$(fnm env --use-on-cd)"' >> ~/.zshrc
 
+brew tap oven-sh/bun
+brew install bun
+
 echo 'NVM_DIR="$(brew --prefix nvm)"' >> ~/.zshrc
 echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm' >> ~/.zshrc
 echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion' >> ~/.zshrc
