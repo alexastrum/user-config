@@ -82,7 +82,7 @@ nvm i node
 corepack enable
 echo 'nvm use 24' >> ~/.zshrc
 
-npm i -g opencode-ai # npm
+npm i -g bun opencode-ai # npm
 
 # google
 npm i -g firebase-cli genkit-cli @google/gemini-cli
