@@ -10,11 +10,11 @@ ssh-keygen
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 #cd ~
 #mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip-components 1 -C homebrew
-#eval "$(homebrew/bin/brew shellenv)"
-#brew analytics off
-#brew update --force --quiet
-#chmod -R go-w "$(brew --prefix)/share/zsh"
-#echo 'eval "$(homebrew/bin/brew shellenv)"' >> ~/.zshrc
+eval "$(homebrew/bin/brew shellenv)"
+brew analytics off
+brew update --force --quiet
+chmod -R go-w "$(brew --prefix)/share/zsh"
+echo 'eval "$(homebrew/bin/brew shellenv)"' >> ~/.zshrc
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
