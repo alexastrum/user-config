@@ -35,7 +35,7 @@ brew install cmake ffmpeg fzf rga pandoc poppler
 brew install beekeeper-studio ghostty github grandperspective
 
 # llms
-brew install 5ire lm-studio ollama-app
+brew install lm-studio # 5ire ollama-app
 
 # docker
 brew install docker-compose helm kubernetes-cli kubernetes-cli podman podman-desktop
