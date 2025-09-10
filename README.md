@@ -50,10 +50,10 @@ brew install surfshark tailscale-app
 brew install linearmouse
 
 # browser
-brew install google-chrome thebrowsercompany-dia # zen-browser
+brew install google-chrome # thebrowsercompany-dia zen-browser
 
 # ide
-brew install cursor visual-studio-code # zed
+brew install visual-studio-code zed # cursor
 
 echo 'export EDITOR="code --wait"' >> ~/.zshrc
 echo 'export VISUAL="code --wait"' >> ~/.zshrc
