@@ -50,7 +50,7 @@ brew install surfshark tailscale-app
 brew install linearmouse
 
 # browser
-brew install google-chrome # thebrowsercompany-dia zen-browser
+brew install google-chrome helium-browser # zen-browser
 
 # ide
 brew install visual-studio-code zed # cursor
