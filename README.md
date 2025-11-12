@@ -41,7 +41,7 @@ brew install lm-studio # 5ire ollama-app
 brew install docker-compose helm kubernetes-cli kubernetes-cli podman podman-desktop
 
 # media
-brew install losslesscut obs vlc
+brew install losslesscut obs vlc # screen-studio
 
 # vpn
 brew install surfshark tailscale-app
